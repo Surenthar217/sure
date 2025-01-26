@@ -1,0 +1,246 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.header{
+    background-color: rgb(148, 219, 243);
+padding: 10px;
+}
+.logo{
+    position: relative;
+    left: 20%;
+    top: 10px;
+}
+.search-bar{
+    padding: 10px;
+    position: relative;
+    left: 45%;
+    bottom: 20px;
+}
+.search-bar input{
+    padding: 10px;
+    background-color: bisque;
+    border: 0;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.search-bar input:focus{
+    outline: 0;
+}
+.search-bar button{
+    padding: 10px;
+    border: 0;
+    background-color: coral;
+    position: absolute;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+
+}
+
+.icon i{
+    margin-right: 45px;
+    position: relative;
+    left: 45px;
+    bottom: 20px;
+    
+}
+.icon,.logo,.search-bar{
+    display: inline-block;
+}
+.navi{
+    padding: 30px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    background-color: aliceblue;
+    z-index: 1;
+  
+   
+}
+.navi a{
+    text-decoration: none;
+    margin-right: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.section-1{
+    background-image: url(employee.png);
+    padding: 70px;
+height: 100vh;
+background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.content{
+margin-top: 120px;
+line-height: 1.8;
+}
+.content h1{
+    margin-bottom: 50px;
+    font-weight: bold;
+    font-size: 35px;
+
+}
+.content p{
+    margin-bottom: 50px;
+}
+.content button{
+    padding: 20px;
+    border-radius: 5px;
+    border: 0;
+    font-style: inherit;
+    font-weight: bold;
+    background-color: rgb(150, 237, 240);
+}
+.section-2{
+    padding: 30px;
+ background-color: rgb(244, 178, 222);
+ text-align: center;
+}
+.line{
+    display: inline-block;
+    margin-right: 40px;
+}
+.line h2{
+    font-size: 30px;
+
+}
+.line p{
+font-weight: bold;
+font-size: 19px;
+ margin-top: 10px;
+ text-transform: uppercase;
+}
+.section-3{
+    padding: 40px;
+    line-height: 2.3;
+    
+
+}
+.section-3 img{
+    width: 500px; height: 400px;
+    float: left;
+    width: 50%;
+}
+.section-3 span{
+    margin-left: 70px;
+    text-transform: uppercase;
+    color: blueviolet;
+
+}
+.section-3 h2{
+
+    margin: 20px  20px;
+    position: relative;
+    left: 70px;
+    font-size: xx-large;
+    
+}
+.section-3 p{
+    margin: 20px  20px;
+    position: relative;
+    left: 70px;
+}
+.section-3 button{
+    border: 0;
+    padding: 20px;
+    background-color: rgb(156, 239, 239);
+    border-radius: 10px;
+    font-weight: bold;
+    position: relative;
+    left: 225px;
+    cursor: pointer;}
+    .section-4{
+        text-align: center;
+        padding: 70px;
+    
+    }
+    .section-4 span{
+        color: brown;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 120px;
+    }
+    .section-4 h2{
+        font-size: xx-large;
+        font-weight: bolder;
+        margin-bottom: 40px;
+    }
+    .section-4,.img-box{
+        margin-top: 50px;
+        width: 1250px;
+
+    }
+.section-4 .img-div{
+  width: 200px;
+    display: inline-block;
+    margin-right: 200px;
+    
+}
+.section-4 .img-div img{
+    float: left;
+width: ;
+}
+.section-4 .summery{
+    line-height: 2.1;
+    
+   
+    
+}
+.section-4 .summery h3{
+
+    font-weight: bold;
+}
+.last{
+    background-color: rgb(112, 147, 148);
+    padding: 60px;
+}
+.footer-box1,.footer-box2,.footer-box3{
+    display: inline-block;
+}
+.footer-box3{
+    position: relative;
+    left: 250px;
+}
+.footer-box2{
+    position: relative;
+    left: 100px;
+}
+.footer-box1 h2{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-large;
+}
+.footer-box1 p{
+    margin-bottom: 10px;
+}
+.footer-box2 h2{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-large;
+}
+.footer-box2 a{
+    text-decoration: none;
+    line-height: 1.4;
+    position: relative;
+    top: 30px;
+    left: 50px;
+    color: black;
+
+}
+.footer-box3 h2{
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: x-large;
+}
+.footer-box2 h2{
+    position: relative;
+    top: 20px;
+    
+}
